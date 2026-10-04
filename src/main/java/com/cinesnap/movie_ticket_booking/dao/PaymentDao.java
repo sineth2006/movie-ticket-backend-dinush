@@ -1,0 +1,9 @@
+package com.cinesnap.movie_ticket_booking.dao;
+
+import com.cinesnap.movie_ticket_booking.entities.PaymentEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PaymentDao extends JpaRepository<PaymentEntity,String> {
+}
