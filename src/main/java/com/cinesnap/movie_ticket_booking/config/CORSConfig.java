@@ -13,7 +13,7 @@ public class CORSConfig {
     @Bean
     public CorsConfigurationSource getCorsConfiguration() {
         CorsConfiguration corsConfig = new CorsConfiguration();
-        corsConfig.setAllowedOrigins(List.of("http://localhost:3000"));
+        corsConfig.setAllowedOrigins(List.of("http://localhost:3030"));// have change this port//////////////////
         corsConfig.setAllowedMethods(List.of("GET","POST","PUT","PATCH","DELETE","OPTIONS","HEAD"));
         corsConfig.setAllowedHeaders(List.of("Authorization","Content-Type"));
         corsConfig.setAllowCredentials(true);

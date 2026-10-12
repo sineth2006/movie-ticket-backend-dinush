@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("api/movies")
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3030")//hange the link localhost port////////////////////////
 public class MovieController {
 
     private final MovieService movieService;
